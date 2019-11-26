@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>{{ config('app.project') }} | School | {{ AppHelper::getTitle() }}</title>
+    <title>Ssgroup | Bus Tracking</title>
 
     <!-- Bootstrap -->
     <link href="{{ asset(config('bus.asset_path').'/vendors/bootstrap/dist/css/bootstrap.min.css') }}" rel="stylesheet">

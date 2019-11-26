@@ -4,7 +4,7 @@
 
     <div class="page-title">
         <div class="title_left">
-            <h3>{{ AppHelper::getTitle() }} Page</h3>
+            <h3>Route Page</h3>
         </div>
 
         <div class="title_right">
@@ -36,7 +36,7 @@
                         <li class="dropdown">
                             <a href="{{ route(config('bus.url_prefix').'.route.create') }}" class="btn btn-dark btn-sm">
                                 <i
-                                        class="fa fa-plus"></i> Add {{ AppHelper::getTitle() }}</a>
+                                        class="fa fa-plus"></i> Add Route</a>
                         </li>
                     </ul>
                     <div class="clearfix"></div>

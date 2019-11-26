@@ -4,7 +4,8 @@ return [
     'url_prefix' => 'ssgroup',
     'asset_path' => 'ssgroup',
     'middleware' => 'ingasdfasdf',
-    'dev_mode' => env('BusTrackingDevMode', false),
+    'dev_mode' => env('BUS_TRACKING_DEV_MODE', false),
+    'googlemap_key' => env('GOOGLE_MAP_KEY', false),
     'validation' => [
         'mobile_no' => [
 //            'regex' => "^[9][6-8]\d{8}$",

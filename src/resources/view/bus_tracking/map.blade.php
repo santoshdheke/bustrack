@@ -4,7 +4,7 @@
 
     <div class="page-title">
         <div class="title_left">
-            <h3>{{ AppHelper::getTitle() }} Page</h3>
+            <h3>Bus Tracking Page</h3>
         </div>
 
         <div class="title_right">
@@ -35,7 +35,7 @@
                     <ul class="nav navbar-right panel_toolbox">
                         <li class="dropdown">
                             <a href="javascript:void(0)" id="load" class="btn btn-dark btn-sm">
-                                <i class="fa fa-plus"></i> Add {{ AppHelper::getTitle() }}</a>
+                                <i class="fa fa-plus"></i> Add Bus Tracking</a>
                         </li>
                     </ul>
                     <div class="clearfix"></div>
@@ -128,6 +128,6 @@ alert('test');
 
 </script>
 
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC8xUqFu-Te4JAwIsNP25J6b59cfxbjgyQ&callback=initMaps"
+<script src="https://maps.googleapis.com/maps/api/js?key={{ config('bus.googlemap_key') }}"
         async defer></script>
 @endpush
