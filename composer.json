@@ -1,0 +1,28 @@
+{
+  "name": "ssgroup/account",
+  "type": "labraary",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "santosh",
+      "email": "santoshdheke46@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "extra": {
+    "laravel": {
+      "providers": [
+        "SsGroup\\BusTracking\\BusTrackingServiceProvider"
+      ]
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "SsGroup\\BusTracking\\": "src/"
+    }
+  },
+  "files": [
+
+  ]
+}
