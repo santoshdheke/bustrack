@@ -9,7 +9,9 @@
     }
   ],
   "minimum-stability": "dev",
-  "require": {},
+  "require": {
+    "yajra/laravel-datatables-oracle": "~9.0"
+  },
   "extra": {
     "laravel": {
       "providers": [
