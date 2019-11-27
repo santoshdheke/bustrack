@@ -4,7 +4,7 @@ return [
     'url_prefix' => 'ssgroup',
     'asset_path' => 'ssgroup',
     'middleware' => 'ingasdfasdf',
-    'dev_mode' => env('BUS_TRACKING_DEV_MODE', false),
+    'dev_mode' => env('BUS_TRACKING_DEV_MODE', true),
     'googlemap_key' => env('GOOGLE_MAP_KEY', false),
     'validation' => [
         'mobile_no' => [
