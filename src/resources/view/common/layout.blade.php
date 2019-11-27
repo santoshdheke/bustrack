@@ -10,11 +10,11 @@
     <title>Ssgroup | Bus Tracking</title>
 
     <!-- Bootstrap -->
-    <link href="{{ asset(config('bus.asset_path').'/vendors/bootstrap/dist/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset(config('bus.asset_path').'/bootstrap/dist/css/bootstrap.min.css') }}" rel="stylesheet">
     <!-- Font Awesome -->
-    <link href="{{ asset(config('bus.asset_path').'/vendors/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet">
+    <link href="{{ asset(config('bus.asset_path').'/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet">
     <!-- NProgress -->
-    <link href="{{ asset(config('bus.asset_path').'/vendors/nprogress/nprogress.css') }}" rel="stylesheet">
+    <link href="{{ asset(config('bus.asset_path').'/nprogress/nprogress.css') }}" rel="stylesheet">
 
 @stack('css')
 
@@ -110,13 +110,13 @@
 </div>
 
 <!-- jQuery -->
-<script src="{{ asset(config('bus.asset_path').'/vendors/jquery/dist/jquery.min.js') }}"></script>
+<script src="{{ asset(config('bus.asset_path').'/jquery/dist/jquery.min.js') }}"></script>
 <!-- Bootstrap -->
-<script src="{{ asset(config('bus.asset_path').'/vendors/bootstrap/dist/js/bootstrap.min.js') }}"></script>
+<script src="{{ asset(config('bus.asset_path').'/bootstrap/dist/js/bootstrap.min.js') }}"></script>
 <!-- FastClick -->
-<script src="{{ asset(config('bus.asset_path').'/vendors/fastclick/lib/fastclick.js') }}"></script>
+<script src="{{ asset(config('bus.asset_path').'/fastclick/lib/fastclick.js') }}"></script>
 <!-- NProgress -->
-<script src="{{ asset(config('bus.asset_path').'/vendors/nprogress/nprogress.js') }}"></script>
+<script src="{{ asset(config('bus.asset_path').'/nprogress/nprogress.js') }}"></script>
 
 @stack('js')
 @include('bustracking::common.notify')
